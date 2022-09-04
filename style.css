@@ -5,7 +5,7 @@ body {
   padding: 0;
   font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
-  width: 576px;
+  width: 567px;
 }
 
 header {
@@ -47,7 +47,7 @@ h1 {
 }
 
 .Firstpage {
-  padding: 2rem 4.7rem;
+  padding: 2rem 6rem;
 }
 
 .shopnow {
@@ -73,8 +73,8 @@ h1 {
 
 p {
   color: gray;
-  font-size: 15.5px;
-  line-height: 1.2rem;
+  font-size: 17px;
+  line-height: 1.3rem;
 }
 h3 {
   letter-spacing: 6px;
@@ -95,6 +95,12 @@ footer img {
     display: grid;
     grid-template-columns: 61% 39%;
     height: 500px;
+  }
+  body {
+    width: 100%;
+  }
+  #hamburger {
+    display: none;
   }
   header {
     width: 100%;
@@ -129,9 +135,6 @@ footer img {
   #homeshop a {
     color: #ffff;
     text-decoration: none;
-  }
-  a:hover #hamburger {
-    display: none;
   }
 
   #homelogo {
