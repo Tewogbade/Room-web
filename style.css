@@ -5,7 +5,6 @@ body {
   padding: 0;
   font-family: "League Spartan", sans-serif;
   box-sizing: border-box;
-  width: 567px;
 }
 
 header {
@@ -19,8 +18,8 @@ header {
 nav {
   display: flex;
   padding-top: 3rem;
-  padding-left: 1.5rem;
-  column-gap: 7rem;
+  padding-left: 2rem;
+  column-gap: 10rem;
 }
 
 #homeshop {
@@ -47,7 +46,7 @@ h1 {
 }
 
 .Firstpage {
-  padding: 2rem 6rem;
+  padding: 2rem 3.9rem;
 }
 
 .shopnow {
@@ -82,7 +81,7 @@ h3 {
   font-size: 15px;
 }
 .thirdpage {
-  padding: 2rem 4.85rem;
+  padding: 2rem 4rem;
 }
 
 footer img {
@@ -115,8 +114,13 @@ footer img {
   }
 
   .Firstpage {
-    padding: 3.5rem;
+    padding: 2rem;
     position: relative;
+  }
+
+  .Firstpage p {
+    font-size: 15.8px;
+    line-height: 1.3rem;
   }
 
   .Firstpage .arrow {
@@ -141,8 +145,9 @@ footer img {
     margin-left: 4rem;
   }
 
-  .thirdpage {
-    padding: 0;
+  .thirdpage p {
+    font-size: 15px;
+    line-height: 1.3rem;
   }
 
   .desktopfooter {
@@ -160,6 +165,7 @@ footer img {
   .Firstpage p {
     padding: 0 3rem;
   }
+
   .shopnow {
     padding-left: 3rem;
     padding-top: 1rem;
